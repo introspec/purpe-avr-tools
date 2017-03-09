@@ -14,9 +14,11 @@ GND (I.e., the AVR GND).
 
 
 Usage:
-	avr-spi-prog 			(will print fuse, lock and signature)
-	avr-spi-prog -e -p <file> 	(will program file at offset 0)
 
-Use the -b <value> flag to change the programming offset.
+	avr-spi-prog 			(will print fuse, lock and signature)
+
+	avr-spi-prog -e -p filename 	(will program file at offset 0)
+
+Use the -b value flag to change the programming offset.
 
 
